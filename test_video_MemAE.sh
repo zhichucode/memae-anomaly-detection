@@ -1,6 +1,6 @@
 #!/bin/bash
 # testing MemAE on video dataset
-python script_testing.py \
+sudo /home/zzh/anaconda3/envs/MemAE/bin/python script_testing.py \
     --ModelName MemAE \
     --ModelSetting Conv3DSpar \
     --Dataset UCSD_P2_256 \
@@ -9,7 +9,7 @@ python script_testing.py \
     --ShrinkThres 0.0025 \
     --Seed 1 \
     --ModelRoot ./models/ \
-    --ModelFilePath the/path/of/a/trained.model \
-    --DataRoot ./datasets/processed/ \
+    --ModelFilePath ./memae_models/MemAE_Conv3DSpar_UCSD_P2_256_MemDim2000_EntW0.0002_ShrThres0.0025_Non.pt \
+    --DataRoot ./dataset/ \
     --OutRoot ./results/ \
     --Suffix Non

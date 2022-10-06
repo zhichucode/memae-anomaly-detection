@@ -1,4 +1,4 @@
-python script_training.py \
+sudo /home/zzh/anaconda3/envs/MemAE/bin/python script_training.py \
     --ModelName MemAE \
     --ModelSetting Conv3DSpar \
     --Dataset UCSD_P2_256 \
@@ -10,6 +10,6 @@ python script_training.py \
     --SaveCheckInterval 1 \
     --IsTbLog True \
     --IsDeter True \
-    --DataRoot ./datasets/processed/ \
+    --DataRoot ./dataset/ \
     --ModelRoot ./results/ \
     --Suffix Non
