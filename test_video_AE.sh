@@ -1,6 +1,6 @@
 #!/bin/bash
 # testing AE video
-sudo /home/dong/.conda/envs/py36pt040/bin/python script_testing.py \
+sudo /home/zzh/anaconda3/envs/MemAE/bin/python script_testing.py \
     --ModelName AE \
     --ModelSetting Conv3D \
     --Dataset UCSD_P2_256 \
