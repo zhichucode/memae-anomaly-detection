@@ -1,4 +1,4 @@
-data/UCSD_P2_256/*
+dataset/UCSD_P2_256/*
 # */__pycache__
 *.py[cod]
 *.pt
